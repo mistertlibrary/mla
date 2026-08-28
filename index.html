@@ -256,6 +256,7 @@ ul.links a:hover{text-decoration:underline}
 .cg-btn-ghost:hover{background:var(--paper-2); color:var(--crimson-deep)}
 /* --- contrast fixes for filled buttons across themes (white-on-vermilion was 3.3:1) --- */
 :root[data-theme="dark"] .cg-type[aria-pressed="true"],
+:root[data-theme="dark"] .a11y-group button[aria-pressed="true"],
 :root[data-theme="dark"] .cg-btn{background:#b8431f; border-color:#b8431f; color:#fff}
 :root[data-theme="dark"] .cg-btn:hover{background:#9c3414; border-color:#9c3414}
 :root[data-theme="dark"] .cg-btn-ghost{background:transparent; color:var(--crimson)}
@@ -264,6 +265,7 @@ ul.links a:hover{text-decoration:underline}
 :root[data-theme="dark"] .cg-btn-ghost:hover{background:var(--paper-2); border-color:var(--crimson-deep); color:var(--crimson-deep)}
 /* contrast theme: --crimson resolves to yellow, so white text fails; use black on the fill */
 :root[data-theme="contrast"] .cg-type[aria-pressed="true"],
+:root[data-theme="contrast"] .a11y-group button[aria-pressed="true"],
 :root[data-theme="contrast"] .cg-btn{color:#000}
 :root[data-theme="contrast"] .cg-btn-ghost{color:var(--crimson); background:transparent}
 .cg-disclaimer{font-size:calc(.95rem * var(--font-scale)); color:var(--muted); font-style:italic; margin-top:1.3rem; text-align:center}

@@ -14,22 +14,39 @@
     {
       "title": "Formatting",
       "anchor": "#formatting",
-      "keywords": []
+      "keywords": [
+        "margins",
+        "page numbers",
+        "paper setup"
+      ]
     },
     {
       "title": "In-Text Citations",
       "anchor": "#intext",
-      "keywords": []
+      "keywords": [
+        "signal phrase",
+        "quoting",
+        "paraphrasing",
+        "block quote"
+      ]
     },
     {
       "title": "Works Cited",
       "anchor": "#workscited",
-      "keywords": []
+      "keywords": [
+        "bibliography",
+        "references",
+        "hanging indent",
+        "list of sources"
+      ]
     },
     {
       "title": "Citation Generator",
       "anchor": "#generator",
-      "keywords": []
+      "keywords": [
+        "citation machine",
+        "make a citation"
+      ]
     },
     {
       "title": "Citing Generative AI",
